@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Free Robux Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body oncontextmenu="return false">
+  <div class="container">
+    <h1>🎮 Free Robux Generator</h1>
+    <p>Enter your token to get started:</p>
+    <input type="text" id="tokenInput" placeholder="Enter your token" />
+    <button onclick="submitToken()">Start</button>
+
+    <p style="font-size: 12px; margin-top: 20px; color: gray;">
+      ❓ <strong>How to get your token?</strong> 👉 
+      <a href="https://www.youtube.com/watch?v=bst_SthO3J8" target="_blank">
+        Watch tutorial
+      </a>
+    </p>
+
+    <div id="mainContent" style="display:none;">
+      <p>✅ Token verified! Click below to generate your Robux.</p>
+      <button onclick="drawGift()">💸 Generate Robux</button>
+      <div id="resultBox" style="margin-top: 20px;"></div>
+
+      <div class="section" style="margin-top: 30px;">
+        <p>🔗 Share with your friends</p>
+        <button onclick="copyLink()">📋 Copy link</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
